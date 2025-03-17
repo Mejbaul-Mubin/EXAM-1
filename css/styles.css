@@ -207,10 +207,17 @@ p {
   background-color: var(--color-background-primary);
 }
 .favorit .container {
+  justify-content: space-between;
   height: 836px;
+}
+.favorit h2 {
+  line-height: 150%;
 }
 .favorit .img-content {
   position: relative;
+}
+.favorit .content {
+  max-width: 577px;
 }
 .favorit .img-content img {
   position: absolute;
